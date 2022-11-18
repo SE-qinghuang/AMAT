@@ -1,0 +1,10 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="alxtyper" path="ActionManager" hit="AlxTyper" />
+    <option name="code" path="ActionManager" hit="Fix up the partial code" />
+    <option name="fix" path="ActionManager" hit="Fix up the partial code" />
+    <option name="partial" path="ActionManager" hit="Fix up the partial code" />
+    <option name="the" path="ActionManager" hit="Fix up the partial code" />
+    <option name="up" path="ActionManager" hit="Fix up the partial code" />
+  </configurable>
+</options>
