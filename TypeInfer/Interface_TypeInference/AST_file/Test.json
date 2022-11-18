@@ -1,0 +1,192 @@
+{
+  "label": "",
+  "type": "root",
+  "children": [
+    {
+      "label": "unnamed module",
+      "type": "UnnamedMo",
+      "children": [
+        {
+          "label": "unnamed package",
+          "type": "RootPac",
+          "children": [
+            {
+              "label": "Test",
+              "type": "Class",
+              "children": [
+                {
+                  "label": "main",
+                  "type": "Method",
+                  "children": [
+                    {
+                      "label": "void",
+                      "type": "RETURN_TYPE",
+                      "children": []
+                    },
+                    {
+                      "label": "",
+                      "type": "Modifiers_Method",
+                      "children": [
+                        {
+                          "label": "public",
+                          "type": "Modifier",
+                          "children": []
+                        },
+                        {
+                          "label": "static",
+                          "type": "Modifier",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "label": "args",
+                      "type": "Parameter",
+                      "children": [
+                        {
+                          "label": "java.lang.String[]",
+                          "type": "VARIABLE_TYPE",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "label": "formatter",
+                      "type": "LocalVariable",
+                      "children": [
+                        {
+                          "label": "DateTimeFormatter",
+                          "type": "VARIABLE_TYPE",
+                          "children": []
+                        },
+                        {
+                          "label": "forPattern",
+                          "type": "Invocation",
+                          "children": [
+                            {
+                              "label": "DateTimeFormat",
+                              "type": "TypeAccess",
+                              "children": []
+                            },
+                            {
+                              "label": "\"MM/dd/yyyy\"",
+                              "type": "Literal",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "past",
+                      "type": "LocalVariable",
+                      "children": [
+                        {
+                          "label": "LocalDate",
+                          "type": "VARIABLE_TYPE",
+                          "children": []
+                        },
+                        {
+                          "label": "parseLocalDate",
+                          "type": "Invocation",
+                          "children": [
+                            {
+                              "label": "formatter",
+                              "type": "VariableRead",
+                              "children": []
+                            },
+                            {
+                              "label": "\"06/22/2010\"",
+                              "type": "Literal",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "\u003d",
+                      "type": "Assignment",
+                      "children": [
+                        {
+                          "label": "DateTimeZone",
+                          "type": "FieldWrite",
+                          "children": []
+                        },
+                        {
+                          "label": "forID",
+                          "type": "Invocation",
+                          "children": [
+                            {
+                              "label": "DateTimeZone",
+                              "type": "TypeAccess",
+                              "children": []
+                            },
+                            {
+                              "label": "\"America/Montreal\"",
+                              "type": "Literal",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "label": "match time zone intended for that input string.",
+                          "type": "Comment",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "label": "days",
+                      "type": "LocalVariable",
+                      "children": [
+                        {
+                          "label": "int",
+                          "type": "VARIABLE_TYPE",
+                          "children": []
+                        },
+                        {
+                          "label": "daysBetween",
+                          "type": "Invocation",
+                          "children": [
+                            {
+                              "label": "Days",
+                              "type": "TypeAccess",
+                              "children": []
+                            },
+                            {
+                              "label": "past",
+                              "type": "VariableRead",
+                              "children": []
+                            },
+                            {
+                              "label": "now",
+                              "type": "Invocation",
+                              "children": [
+                                {
+                                  "label": "LocalDate",
+                                  "type": "TypeAccess",
+                                  "children": []
+                                },
+                                {
+                                  "label": "timeZone",
+                                  "type": "FieldRead",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
