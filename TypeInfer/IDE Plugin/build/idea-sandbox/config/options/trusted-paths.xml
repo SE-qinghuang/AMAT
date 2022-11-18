@@ -1,0 +1,11 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="D:\IDE plugins test" value="true" />
+        <entry key="D:\java_test" value="true" />
+        <entry key="E:\apply\Interface_TypeInference" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

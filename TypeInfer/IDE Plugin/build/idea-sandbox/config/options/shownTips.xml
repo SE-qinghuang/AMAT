@@ -1,0 +1,19 @@
+<application>
+  <component name="ShownTips">
+    <option name="shownTips">
+      <map>
+        <entry key="AltInsertInEditor.html" value="1664851521355" />
+        <entry key="CodeCompletionInSearch.html" value="1666098503662" />
+        <entry key="CompleteStatement.html" value="1665109479224" />
+        <entry key="CtrlDotInLookups.html" value="1666011970734" />
+        <entry key="HideWidgets.html" value="1664851521117" />
+        <entry key="InjectSQLLanguage.html" value="1665904558069" />
+        <entry key="OverrideImplementMethods.html" value="1666188080637" />
+        <entry key="QuickSwitchScheme.html" value="1666522064787" />
+        <entry key="find_usages.html" value="1666274956994" />
+        <entry key="recent-locations.html" value="1664851519058" />
+        <entry key="search_everywhere_expr.html" value="1665018952767" />
+      </map>
+    </option>
+  </component>
+</application>
